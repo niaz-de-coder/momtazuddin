@@ -88,13 +88,16 @@ nav{
         height: 300px;
     }
     .bg-white-head, .bg-black-head{
-        height: 360.5px;
+        height: 310.5px;
     }
     .navbar-nav{
         margin-right: 80px;
     }
     #heroTextWidth{
         width: 200px;
+    }
+    nav{
+        height: 50px;
     }
 }
 @media (max-width: 380px) {
@@ -125,13 +128,16 @@ nav{
         height: 150px;
     }
     .bg-white-head, .bg-black-head{
-        height: 260.5px;
+        height: 210.5px;
     }
     .navbar-nav{
         margin-right: 20px;
     }
     #heroTextWidth{
-        width: 100px;
+        width: 150px;
+    }
+    nav{
+        height: 50px;
     }
 }
 @media (min-width: 576px) { 
@@ -162,10 +168,13 @@ nav{
         height: 400px;
     }
     .bg-white-head, .bg-black-head{
-        height: 410.5px;
+        height: 390.5px;
     }
     .navbar-nav{
         margin-right: 80px;
+    }
+    nav{
+        height: 80px;
     }
  }
 
@@ -202,6 +211,9 @@ nav{
     }
     .navbar-nav{
         margin-right: 80px;
+    }
+    nav{
+        height: 100px;
     }
  }
 
@@ -262,7 +274,7 @@ nav{
         font-size: 3.5vw !important;
     }
     .hero-img{
-        height: 510.5px;
+        height: 550.5px;
         width: 100%;
     }
     .hero-div{
@@ -270,7 +282,7 @@ nav{
         height: 500px;
     }
     .bg-white-head, .bg-black-head{
-        height: 610.5px;
+        height: 650.5px;
     }
     .navbar-nav{
     margin-right: 140px;
