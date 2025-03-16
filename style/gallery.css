@@ -1,0 +1,202 @@
+.gal-main {
+    position: relative;
+    background-color: #000001;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.gal-main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    z-index: 1;
+}
+
+.gal-main > * {
+    position: relative;
+    z-index: 2;
+}
+.gal-sec-photo{
+    width: 50%;
+    height: 1000px;
+    margin-left: 10%;
+    margin-top: 1px;
+    flex-direction: column;
+}
+.gal-sec-text{
+    width: 35%;
+    height: 50px;
+    margin-left: 18%;
+}
+.gal-blank{
+    width: 50%;
+    height: 100px;
+}
+.gal-sec-photo-div-1{
+    height: 25%;
+    flex-direction: row;
+}
+.gal-sec-photo-div-2{
+    height: 30%;
+    flex-direction: row;
+}
+.gal-photo-1{
+    width: 30%;
+    height: 90%;
+}
+.gal-photo-2{
+    width: 68%;
+    height: 100%;
+}
+.gal-photo-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.gal-photo-2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#opacity80{
+    opacity: 80%;
+}
+.gal-more-button{
+    width: 90%;
+    height: 30%;
+    border-radius: 50px;
+    background-color: black;
+}
+.gal-more-button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.gal-more-button:hover p{
+    color: #000001;
+}
+.gal-more-button p{
+    color: #fffffe;
+}
+
+
+@media (max-width: 575px) {
+    .gal-main {
+        position: relative;
+        background-color: #000001;
+        height: 700px;
+        overflow: hidden;
+    }
+    .gal-sec-photo{
+        width: 50%;
+        height: 500px;
+        margin-left: 10%;
+        margin-top: 1px;
+        flex-direction: column;
+    }
+}
+@media (max-width: 380px) {
+    .gal-main {
+        position: relative;
+        background-color: #000001;
+        height: 600px;
+        overflow: hidden;
+    }
+    .gal-sec-photo{
+        width: 50%;
+        height: 400px;
+        margin-left: 10%;
+        margin-top: 1px;
+        flex-direction: column;
+    }
+}
+@media (min-width: 576px) { 
+    .gal-main {
+        position: relative;
+        background-color: #000001;
+        height: 750px;
+        overflow: hidden;
+    }
+    .gal-sec-photo{
+        width: 50%;
+        height: 550px;
+        margin-left: 10%;
+        margin-top: 1px;
+        flex-direction: column;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    .gal-main {
+        position: relative;
+        background-color: #000001;
+        height: 900px;
+        overflow: hidden;
+    }
+    .gal-sec-photo{
+        width: 50%;
+        height: 700px;
+        margin-left: 10%;
+        margin-top: 1px;
+        flex-direction: column;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .gal-main {
+        position: relative;
+        background-color: #000001;
+        height: 1000px;
+        overflow: hidden;
+    }
+    .gal-sec-photo{
+        width: 50%;
+        height: 800px;
+        margin-left: 10%;
+        margin-top: 1px;
+        flex-direction: column;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .gal-main {
+        position: relative;
+        background-color: #000001;
+        height: 1200px;
+        overflow: hidden;
+    }
+    .gal-sec-photo{
+        width: 50%;
+        height: 1000px;
+        margin-left: 10%;
+        margin-top: 1px;
+        flex-direction: column;
+    }
+ }
+
+
+@media (min-width: 1400px) { 
+    .gal-main {
+        position: relative;
+        background-color: #000001;
+        height: 1300px;
+        overflow: hidden;
+    }
+    .gal-sec-photo{
+        width: 50%;
+        height: 1100px;
+        margin-left: 10%;
+        margin-top: 1px;
+        flex-direction: column;
+    }
+ }
