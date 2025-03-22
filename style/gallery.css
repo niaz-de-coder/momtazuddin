@@ -12,7 +12,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://www.shutterstock.com/image-photo/working-on-paddy-fieldrice-field-600nw-2494819919.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,6 +36,9 @@
     height: 50px;
     margin-left: 18%;
 }
+.gal-sec-text p{
+    color: #fffffe;
+}
 .gal-blank{
     width: 50%;
     height: 100px;
@@ -51,8 +54,14 @@
 .gal-photo-1{
     width: 30%;
     height: 90%;
+    box-shadow: 5px 5px 10px #000001;
 }
 .gal-photo-2{
+    width: 68%;
+    height: 100%;
+    box-shadow: 5px 5px 10px #000001;
+}
+.gal-photo-3{
     width: 68%;
     height: 100%;
 }

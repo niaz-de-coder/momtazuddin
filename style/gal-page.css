@@ -11,6 +11,26 @@ body{
     flex-direction: row !important;
     gap: 70%;
     border-bottom: 1px solid #000001;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.nav-opt{
+    flex-direction: row !important;
+    /* gap: 70%; */
+    margin-top: 100px !important;
+    height: 50px;
+    cursor: pointer;
+    background-color: #fffffe;
+}
+#imgOpt, #vidOpt{
+    width: 50%;
+    border: 1px solid #fffffe;
+    height: 100%;
+    background-color: #000001 !important;
+}
+#imgOpt p, #vidOpt p{
+    color: #fffffe;
 }
 .back-btn{
     border: #000001 1px solid;
@@ -25,7 +45,7 @@ body{
 .gal-sec-main{
     flex-direction: column;
     gap: 10px;
-    height: 10500px;
+    /* height: 10100px; */
 }
 .gal-table-div{
     width: 100px;
@@ -35,4 +55,83 @@ body{
     width: 100%;
     height: 90%;
     border-radius: 25px;
+}
+.gal-img-div iframe{
+    width: 100%;
+    height: 60%;
+    border-radius: 25px;
+}
+@media (max-width:800px) {
+    .gal-table-div{
+        width: 100px;
+        height: 400px;
+    }
+}
+@media (max-width:550px) {
+    .gal-table-div{
+        width: 100px;
+        height: 200px;
+    } 
+}
+@media (max-width:350px) {
+    .gal-table-div{
+        width: 100px;
+        height: 100px;
+    }
+    .gal-table-div{
+        width: 50px;
+        height: 50px;
+    } 
+}
+
+
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-content img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background: #0056b3;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
 }
