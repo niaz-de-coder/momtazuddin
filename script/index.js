@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const galMoreBtn = document.getElementById('galMoreBtn');
     if (galMoreBtn) {
         galMoreBtn.addEventListener('click', function() {
-            window.location.href = 'gallery.html';
+            window.location.href = 'gal-img.html';
         });
     }
 });
