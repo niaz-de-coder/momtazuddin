@@ -1,6 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.f-di-col{
+    flex-direction: column;
+}
+.f-di-row{
+    flex-direction: row;
+}
 nav{
     height: 100px;
 }
